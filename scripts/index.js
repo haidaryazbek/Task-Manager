@@ -26,10 +26,13 @@ function edit(task){
     if(text[0].disabled){
         text[0].disabled=false;
         text[0].style="background-color:white;";
+        edit[0].innerText="done";
     }
     else{
         text[0].disabled=true;
         text[0].style="background-color:rgb(219, 166, 250);";
+        edit[0].innerText="edit";
+
 
 
     }
