@@ -44,15 +44,29 @@
     border-radius: 10px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .text{
-    margin: 0 10px;
+    margin: 0 0 0 5px;
     width: 80%;
+    height: 1.5rem;
+    border-radius: 10px;
+    border: 0;
+    font-size: 16px;
+    background-color: rgb(219, 166, 250);
+    color: black;
 }
 
 .checkbox{
     height: 1.4rem;
     width: 1.4rem;
+}
+
+.delete{
+    height: 1.4rem;
+    width: 1.4rem;
+    margin: 5px;
+
 }
 
 .add{
