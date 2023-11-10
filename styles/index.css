@@ -42,4 +42,15 @@
     width: 98%;
     background-color: rgb(219, 166, 250);
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    margin: 0 10px;
+    width: 80%;
+}
+
+.checkbox{
+    height: 1.4rem;
+    width: 1.4rem;
 }
