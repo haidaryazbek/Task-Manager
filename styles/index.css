@@ -1,0 +1,16 @@
+.header{
+    width: 20%;
+    color: white;
+}
+
+.section-input{
+    margin-top: 3rem;
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input{
+    width: 80%;
+    height: 2rem;
+}
