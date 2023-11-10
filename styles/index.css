@@ -1,10 +1,20 @@
 .header{
-    width: 20%;
     color: white;
+    font-size: 50px;
 }
 
+.add{
+    border-radius: 10px;
+
+}
+.validation{
+    height: 2rem;
+    color: white;
+    width: 40vw;
+    margin: 5px 0 0 10px;
+    padding: 0;
+}
 .section-input{
-    margin-top: 3rem;
     width: 40vw;
     display: flex;
     justify-content: space-between;
@@ -13,4 +23,23 @@
 .input{
     width: 80%;
     height: 2rem;
+    border-radius: 10px;
+
+}
+
+.section-tasks{
+    background-color: white;
+    width: 40vw;
+    height: 100%;
+    margin: 1rem 0;
+    border: 0;
+    border-radius: 10px;
+}
+
+.task{
+    height: 3rem;
+    margin: 5px;
+    width: 98%;
+    background-color: rgb(219, 166, 250);
+    border-radius: 10px;
 }
